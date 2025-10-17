@@ -9,4 +9,4 @@ groups:
           severity: critical
         annotations:
           summary: Prometheus target missing with warmup time (instance {{ $labels.instance }})
-          description: "Allow a job time to start up (10 minutes) before alerting that it's down.\n  VALUE = {{ $value }}\n  LABELS = {{ $labels }}
+          description: "Allow a job time to start up (10 minutes) before alerting that it's down.\n  VALUE = {{ $value }}\n  LABELS = {{ $labels }}"
