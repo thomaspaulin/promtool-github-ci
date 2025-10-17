@@ -1,0 +1,9 @@
+name: On Push Workflow
+on:
+  push:
+
+permissions:
+
+jobs:
+  promtool:
+    uses: ./.github/workflows/_promtool.yaml
